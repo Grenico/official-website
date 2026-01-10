@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.navigator {
+  height: 60px;
+  width: 100%;
+  background-color: #152536d5;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+button {
+  height: 100%;
+  width: fit-content;
+  margin-left: 28px;
+  font-size: large;
+  font-weight: bold;
+  font-family: 黑体;
+  color: white;
+  background: none;
+  border: none;
+}
+button:hover {
+  color: #a8bbce;
+  cursor: pointer;
+}
+#home::after {
+  position: relative;
+  content: "的个人网站";
+}
+.wave {
+  background-image: url("./首页封面.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width: 600px) {
+  .navigator {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1525364f;
+  }
+  button {
+    margin: 0px;
+    padding: 0;
+  }
+  #home {
+    font-size: 50px;
+    height: auto;
+    margin-left: 30px;
+    animation: fade-in 1.5s forwards; /* 应用动画 */
+  }
+  #home::after {
+    display: none;
+  }
+  #works::after {
+    position: relative;
+    content: ">>";
+    left: 20%;
+  }
+  #works {
+    width: auto;
+    height: 90px;
+    font-size: 23px;
+    margin-left: 40px;
+    animation: fade-in 1.5s forwards; /* 应用动画 */
+  }
+  @keyframes fade-in {
+    from {
+      transform: translateY(-100px);
+      opacity: 0;
+      text-shadow: none;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+      text-shadow: 10px 20px 5px #b1c7df4f;
+    }
+  }
+}

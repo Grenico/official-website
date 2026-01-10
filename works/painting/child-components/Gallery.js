@@ -1,0 +1,54 @@
+export default {
+  template: /*html*/ `
+  <div class="headbar">
+  <h1>绘画</h1>
+  </div>
+  <div class="gallery">
+  <div class="gallery-column" v-for="(column, columnIndex) in columns" :key="columnIndex">
+  <div class="img-containers" v-for="img in column" :key="img.id" >
+  <el-image :src="img.src" :alt="img.id" :preview-src-list="previewList" preview-teleported :initial-index="img.id-1" fit="cover" loading="lazy" hide-on-click-modal>
+  </el-image>
+  </div>
+  </div>
+  </div>
+    `,
+  data() {
+    return {
+      windowWidth: window.innerWidth, // 添加窗口宽度监听
+      title: "图片数据",
+      imgs: [
+        { id: 1, src: "https://i.imgs.ovh/2026/01/07/yOGEbq.jpeg" },
+        { id: 2, src: "https://i.imgs.ovh/2026/01/07/yOGYEa.jpeg" },
+        { id: 3, src: "https://i.imgs.ovh/2026/01/07/yOGoit.png" },
+        { id: 4, src: "https://i.imgs.ovh/2026/01/07/yOGuEQ.jpeg" },
+        { id: 5, src: "https://i.imgs.ovh/2026/01/07/yOGd2C.jpeg" },
+        { id: 6, src: "https://i.imgs.ovh/2026/01/07/yOGlB4.jpeg" },
+        { id: 7, src: "https://i.imgs.ovh/2026/01/07/yOGKFA.jpeg" },
+        { id: 8, src: "https://i.imgs.ovh/2026/01/07/yOGp9N.jpeg" },
+        { id: 9, src: "https://i.imgs.ovh/2026/01/07/yOGIIH.jpeg" },
+        { id: 10, src: "https://i.imgs.ovh/2026/01/07/yOGGaU.jpeg" },
+      ],
+    };
+  },
+  computed: {
+    previewList() {
+      return this.imgs.map((img) => img.src);
+    },
+    columns() {
+      // 根据窗口宽度决定列数
+      const columnCount = this.windowWidth <= 768 ? 2 : 4;
+
+      // 创建对应列数的空数组
+      const columns = Array.from({ length: columnCount }, () => []);
+
+      // 将图片均匀分配到各列
+      this.imgs.forEach((img, index) => {
+        const columnIndex = index % columnCount;
+        columns[columnIndex].push(img);
+      });
+
+      return columns;
+    },
+  },
+  // 将图片均匀分配到列中
+};

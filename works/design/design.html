@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>design</title>
+    <link rel="stylesheet" href="gallery-style.css" />
+    <link rel="stylesheet" href="./element-plus-style.css" />
+    <script src="../vue.global.js"></script>
+    <script src="./element-plus.js"></script>
+  </head>
+  <body>
+    <div id="child-app"></div>
+  </body>
+  <script type="module">
+    import ChildRoot from "./child-components/ChildRoot.js";
+    const app = Vue.createApp(ChildRoot);
+    app.use(ElementPlus);
+    app.mount("#child-app");
+  </script>
+  <script>
+    window.addEventListener("scroll", function () {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      window.parent.postMessage(
+        {
+          type: "scroll",
+          scrollTop: scrollTop,
+        },
+        "*"
+      ); // 注意：生产环境应该指定具体的 origin
+    });
+  </script>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text</title>
+    <link rel="stylesheet" href="https://stackedit.cn/style.css" />
+    <script src="../vue.global.js"></script>
+  </head>
+
+  <body class="stackedit">
+    <div id="child-app"></div>
+    <div class="stackedit__html">
+      <h1 id="文本">
+        <span class="prefix"></span><span class="content">文本</span
+        ><span class="suffix"></span>
+      </h1>
+      <h2 id="游戏设定剧本">
+        <span class="prefix"></span
+        ><span class="content">游戏设定&amp;剧本</span
+        ><span class="suffix"></span>
+      </h2>
+      <ul>
+        <li><a href="./text/yiduTale0-1.html">异都传说 序章-1</a></li>
+        <li><a href="./text/yiduTale0-2.html">异都传说 序章-2</a></li>
+        <li><a href="./text/yiduTale1.html">异都传说 Part1</a></li>
+        <li><a href="./text/yiduTale2.html">异都传说 Part2</a></li>
+        <li><a href="./text/yiduTale3.html">异都传说 Part3</a></li>
+        <li><a href="./text/yiduTale4.html">异都传说 Part4</a></li>
+        <li><a href="./text/yiduTale5.html">异都传说 Part5</a></li>
+        <li><a href="./text/yiduTale6.html">异都传说 Part6</a></li>
+        <li><a href="./text/yiduTale7.html">异都传说 Part7</a></li>
+        <li><a href="./text/yiduTale8.html">异都传说 Part8</a></li>
+      </ul>
+      <h2 id="小说">
+        <span class="prefix"></span><span class="content">小说</span
+        ><span class="suffix"></span>
+      </h2>
+      <ul>
+        <li>
+          <a href="./text/AM&amp;MA%E8%AE%BA%E5%9D%9B.html"
+            >AM&amp;MA论坛——废纸篓故事版块</a
+          >
+        </li>
+        <li>
+          <a href="./text/%E6%81%B6%E9%AD%94%E5%92%8C%E7%A4%BC%E7%89%A9.html"
+            >恶魔和礼物</a
+          >
+        </li>
+        <li>
+          <a
+            href="./text/%E5%AD%A4%E7%8B%AC%E6%B0%B4%E4%B8%8A%E4%B9%90%E5%9B%AD.html"
+            >孤独水上乐园</a
+          >
+        </li>
+        <li>
+          <a href="./text/%E9%BB%91%E8%89%B2%E7%9A%84%E5%8D%B0%E8%AE%B0.html"
+            >黑色的印记</a
+          >
+        </li>
+        <li>
+          <a href="./text/多斯康纳事件 （AI）.html">多斯康纳事件 （AI）</a>
+        </li>
+        <li>
+          <a href="./text/2075年侦探日记 （AI）.html">2075年侦探日记 （AI）</a>
+        </li>
+        <li>
+          <a href="./text/摩登剧场.html">摩登剧场</a>
+        </li>
+        <li>
+          <a href="./text/镜子和脸.html">镜子和脸</a>
+        </li>
+      </ul>
+      <h2 id="杂谈">
+        <span class="prefix"></span><span class="content">杂谈</span
+        ><span class="suffix"></span>
+      </h2>
+      <ul>
+        <li>
+          <a href="./text/TKT.html"
+            >《东京都同情塔》所描绘的未来，让我想起了某个温柔的狂人</a
+          >
+        </li>
+        <li>
+          <a href="./text/ACGN1.html"
+            >ACGN爱好者如何自学日语——不负责日语学习指南（基础篇）</a
+          >
+        </li>
+        <li>
+          <a href="./text/ACGN2.html"
+            >ACGN爱好者如何自学日语——不负责日语学习指南（进阶篇）</a
+          >
+        </li>
+        <li>
+          <a href="./text/%E4%BF%84%E8%AF%AD.html"
+            >所以，如何用2个月时间入门俄语</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      window.parent.postMessage(
+        {
+          type: "scroll",
+          scrollTop: scrollTop,
+        },
+        "*"
+      ); // 注意：生产环境应该指定具体的 origin
+    });
+  </script>
+</html>
