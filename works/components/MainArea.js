@@ -50,7 +50,7 @@ export default {
       }
     },
     toHome() {
-      window.location.href = "/official-website/home/index.html";
+      window.location.href = "/home/index.html";
     },
   },
 };

@@ -18,31 +18,11 @@ export default {
       contentTypes: [
         { id: 1, name: "全部", src: "" },
         { id: 2, name: "文字", src: "/works/text/text.html" },
-        {
-          id: 3,
-          name: "绘画",
-          src: "/works/painting/painting.html",
-        },
-        {
-          id: 4,
-          name: "摄影",
-          src: "/works/photo/photo.html",
-        },
-        {
-          id: 5,
-          name: "设计",
-          src: "/works/design/design.html",
-        },
-        {
-          id: 6,
-          name: "视频",
-          src: "/works/video/video.html",
-        },
-        {
-          id: 7,
-          name: "音乐",
-          src: "/works/music/music.html",
-        },
+        { id: 3, name: "绘画", src: "/works/painting/painting.html" },
+        { id: 4, name: "摄影", src: "/works/photo/photo.html" },
+        { id: 5, name: "设计", src: "/works/design/design.html" },
+        { id: 6, name: "视频", src: "/works/video/video.html" },
+        { id: 7, name: "音乐", src: "/works/music/music.html" },
       ],
     };
   },
@@ -66,7 +46,7 @@ export default {
       });
     },
     toHome() {
-      window.location.href = "/home/index.html";
+      window.location.href = "https://grenico.github.io/official-website/home/";
     },
     isSelected(contentType) {
       return this.highlightCategory === contentType.name;
