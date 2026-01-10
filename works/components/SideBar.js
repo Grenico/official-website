@@ -17,12 +17,32 @@ export default {
       title: "侧边栏分类",
       contentTypes: [
         { id: 1, name: "全部", src: "" },
-        { id: 2, name: "文字", src: "/works/text/text.html" },
-        { id: 3, name: "绘画", src: "/works/painting/painting.html" },
-        { id: 4, name: "摄影", src: "/works/photo/photo.html" },
-        { id: 5, name: "设计", src: "/works/design/design.html" },
-        { id: 6, name: "视频", src: "/works/video/video.html" },
-        { id: 7, name: "音乐", src: "/works/music/music.html" },
+        { id: 2, name: "文字", src: "/official-website/works/text/text.html" },
+        {
+          id: 3,
+          name: "绘画",
+          src: "/official-website/works/painting/painting.html",
+        },
+        {
+          id: 4,
+          name: "摄影",
+          src: "/official-website/works/photo/photo.html",
+        },
+        {
+          id: 5,
+          name: "设计",
+          src: "/official-website/works/design/design.html",
+        },
+        {
+          id: 6,
+          name: "视频",
+          src: "/official-website/works/video/video.html",
+        },
+        {
+          id: 7,
+          name: "音乐",
+          src: "/official-website/works/music/music.html",
+        },
       ],
     };
   },
