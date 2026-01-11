@@ -166,6 +166,9 @@ ul {
 .icons {
   font-size: 45px;
 }
+.loadingAnimation {
+  height: 100%;
+}
 
 /* 移动端适配 */
 @media (max-width: 600px) {
