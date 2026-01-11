@@ -1,7 +1,3 @@
-const script = document.createElement("script");
-script.src = "fontawesome.js";
-document.body.appendChild(script);
-
 //返回按钮
 const backButton = document.createElement("button");
 backButton.innerText = "<<返回";

@@ -145,8 +145,8 @@ p {
     align-content: flex-start;
     overflow: visible;
     height: 100vh;
-    margin: 40px 7%;
-    padding-bottom: 40px;
+    margin: 40px 4%;
+    padding-bottom: 60px;
   }
   .media-card {
     margin: 10px;
