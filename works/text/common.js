@@ -1,5 +1,5 @@
 const script = document.createElement("script");
-script.src = "../fontawesome.js";
+script.src = "./fontawesome.js";
 document.body.appendChild(script);
 
 //返回按钮

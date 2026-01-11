@@ -45,7 +45,7 @@ button:hover {
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #1525364f;
+    background-color: transparent;
   }
   button {
     margin: 0px;
@@ -55,6 +55,7 @@ button:hover {
     font-size: 50px;
     height: auto;
     margin-left: 30px;
+    text-shadow: 2px 5px 5px rgb(31, 31, 31);
     animation: fade-in 1.5s forwards; /* 应用动画 */
   }
   #home::after {
@@ -70,18 +71,19 @@ button:hover {
     height: 90px;
     font-size: 23px;
     margin-left: 40px;
+    text-shadow: 2px 5px 5px rgb(31, 31, 31);
     animation: fade-in 1.5s forwards; /* 应用动画 */
   }
   @keyframes fade-in {
     from {
       transform: translateY(-100px);
       opacity: 0;
-      text-shadow: none;
+      /* text-shadow: none; */
     }
     to {
       transform: translateY(0px);
       opacity: 1;
-      text-shadow: 10px 20px 5px #b1c7df4f;
+      /* text-shadow: 5px 15px 10px #b1c7df; */
     }
   }
 }
