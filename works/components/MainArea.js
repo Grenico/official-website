@@ -50,7 +50,7 @@ export default {
       }
     },
     toHome() {
-      window.location.href = "/home/index.html";
+      window.location.href = "https://grenico.github.io/official-website/home/";
     },
   },
 };
