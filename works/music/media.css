@@ -119,40 +119,69 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  .headbar {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    font-family: 黑体;
+    font-size: 120%;
+    color: rgb(240, 248, 255);
+    background-color: #0c1c2cf3;
+    justify-content: center;
+    align-items: center;
+  }
   .media-area {
     margin-left: 0;
     justify-content: flex-start;
     align-content: flex-start;
-    overflow-y: visible;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 100px;
+    overflow: visible;
+    height: 100vh;
+    margin: 5%;
   }
   .media-card {
     margin: 10px;
-    width: 183px;
-    height: 178px;
+    width: 153px;
+    height: 162px;
   }
   .media-info {
-    width: 183px;
-    height: 159px;
+    width: 153px;
+    height: 65px;
     margin: 0px;
   }
   p {
-    font-size: 11.8px;
-    margin-top: 4px;
-    margin-left: 10px;
-    margin-right: 0px;
+    font-size: 9.4px;
+    margin: 9px;
+
     line-height: 20px;
+  }
+  .img-container {
+    height: 99px;
   }
   img {
     object-fit: cover;
     width: 100%;
-    height: 115px;
+    height: 99px;
   }
   .video {
     width: 100%;
     height: 30%;
+  }
+  .close-btn {
+    position: absolute;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.781);
+    background-color: transparent;
+    border: none;
+    left: 80%;
+    top: 20%;
+    cursor: pointer;
   }
 }

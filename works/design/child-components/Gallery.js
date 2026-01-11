@@ -6,7 +6,7 @@ export default {
   <div class="gallery">
   <div class="gallery-column" v-for="(column, columnIndex) in columns" :key="columnIndex">
   <div class="img-containers" v-for="img in column" :key="img.id" >
-  <el-image :src="img.src" :alt="img.id" :preview-src-list="previewList" preview-teleported :initial-index="img.id-1" fit="cover" loading="lazy" hide-on-click-modal>
+  <el-image :src="img.thumbnail" :alt="img.id" :preview-src-list="previewList" preview-teleported :initial-index="img.id-1" fit="cover" loading="lazy" hide-on-click-modal>
   </el-image>
   </div>
   </div>
@@ -17,15 +17,27 @@ export default {
       windowWidth: window.innerWidth,
       title: "图片数据",
       imgs: [
-        { id: 1, src: "https://i.imgs.ovh/2025/12/05/CDR0pX.jpeg" },
-        { id: 2, src: "https://i.imgs.ovh/2025/12/05/CDA1xN.jpeg" },
-        { id: 3, src: "https://i.imgs.ovh/2025/12/05/CDAxiC.jpeg" },
+        {
+          id: 1,
+          fullSize: "https://i.imgs.ovh/2025/12/05/CDR0pX.jpeg",
+          thumbnail: "https://i.imgs.ovh/2025/12/05/CDR0pX.md.jpeg",
+        },
+        {
+          id: 2,
+          fullSize: "https://i.imgs.ovh/2025/12/05/CDA1xN.jpeg",
+          thumbnail: "https://i.imgs.ovh/2025/12/05/CDA1xN.md.jpeg",
+        },
+        {
+          id: 3,
+          fullSize: "https://i.imgs.ovh/2025/12/05/CDAxiC.jpeg",
+          thumbnail: "https://i.imgs.ovh/2025/12/05/CDAxiC.md.jpeg",
+        },
       ],
     };
   },
   computed: {
     previewList() {
-      return this.imgs.map((img) => img.src);
+      return this.imgs.map((img) => img.fullSize);
     },
     columns() {
       // 根据窗口宽度决定列数
