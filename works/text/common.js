@@ -23,7 +23,7 @@ const toTopBtn = document.createElement("button");
 toTopBtn.className = "fas fa-angle-up";
 if (window.innerWidth <= 768) {
   toTopBtn.style.cssText =
-    "opacity:1;font-size:x-large;position: fixed; bottom: 15%;right: 7%;width:35px;height:35px;background-color:transparent;border:none;z-index: 99;";
+    "opacity:1;font-size:x-large;position: fixed; bottom: 40%;right: 7%;width:35px;height:35px;background-color:transparent;border:none;z-index: 99;";
 } else {
   toTopBtn.style.cssText =
     "display: block;opacity:0.3;position: fixed; bottom: 8%;right: 5%;width:35px;height:35px;background-color:#efeff3;border-radius:10%;border:none;cursor:pointer;z-index: 99;";
