@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 240px;
-  height: 215px;
+  height: 213px;
   border-radius: 5%;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
@@ -86,7 +86,7 @@ img {
 p {
   font-family: PingFang SC, Helvetica Neue, Microsoft YaHei, sans-serif;
   font-size: 14px;
-  margin-top: 9px;
+  margin-top: 4px;
   margin-left: 15px;
   margin-right: 14px;
   line-height: 22px;
@@ -118,15 +118,7 @@ p {
   top: 10%;
   cursor: pointer;
 }
-
 @media (max-width: 600px) {
-  body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: visible;
-  }
   .headbar {
     display: flex;
     width: 100%;
@@ -139,19 +131,17 @@ p {
     align-items: center;
   }
   .media-area {
-    display: flex;
     margin-left: 0;
     justify-content: flex-start;
     align-content: flex-start;
     overflow: visible;
+    margin-left: 7%;
     height: 100vh;
-    margin: 40px 4%;
-    padding-bottom: 60px;
   }
   .media-card {
     margin: 10px;
     width: 153px;
-    height: 162px;
+    height: 160px;
   }
   .media-info {
     width: 153px;
