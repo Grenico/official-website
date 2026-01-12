@@ -3,8 +3,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #d0dfee;
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow: hidden;
 }
 /* 主体部分 */
 .main-area {
