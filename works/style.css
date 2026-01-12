@@ -173,6 +173,9 @@ ul {
 /* 移动端适配 */
 @media (max-width: 600px) {
   /* 侧边栏 */
+  body {
+    overflow-y: visible;
+  }
   .side-bar {
     position: fixed;
     z-index: 1;
