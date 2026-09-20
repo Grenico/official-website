@@ -39,7 +39,7 @@ export default {
           id: 2,
           bvid: "BV1Zs41197gB",
           title: "【血界战线】I was so depressed that I had given up",
-          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/视频封面/1789883254777_【血界战线】Over_my_head.jpg",
+          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/视频封面/1789883252275_【血界战线】I_was_so_depressed_that_I_had_given_up.jpg",
         },
         {
           id: 3,
