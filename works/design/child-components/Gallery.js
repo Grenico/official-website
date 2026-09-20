@@ -19,18 +19,13 @@ export default {
       imgs: [
         {
           id: 1,
-          fullSize: "https://i.imgs.ovh/2025/12/05/CDR0pX.jpeg",
-          thumbnail: "https://i.imgs.ovh/2025/12/05/CDR0pX.md.jpeg",
+          fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/设计/1789882617711_招新海报，背面_北校_.jpg",
+          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/设计/1789882617711_招新海报，背面_北校_.jpg",
         },
         {
           id: 2,
-          fullSize: "https://i.imgs.ovh/2025/12/05/CDA1xN.jpeg",
-          thumbnail: "https://i.imgs.ovh/2025/12/05/CDA1xN.md.jpeg",
-        },
-        {
-          id: 3,
-          fullSize: "https://i.imgs.ovh/2025/12/05/CDAxiC.jpeg",
-          thumbnail: "https://i.imgs.ovh/2025/12/05/CDAxiC.md.jpeg",
+          fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/设计/1789882622385_招新传单-正面.jpg",
+          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/设计/1789882622385_招新传单-正面.jpg",
         },
       ],
     };
