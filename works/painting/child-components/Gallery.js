@@ -17,56 +17,51 @@ export default {
       windowWidth: window.innerWidth, // 添加窗口宽度监听
       title: "图片数据",
       imgs: [
-        {
-          id: 1,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGEbq.md.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGEbq.jpeg",
-        },
-        {
-          id: 2,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGYEa.md.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGYEa.jpeg",
-        },
-        {
-          id: 3,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGoit.md.png",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGoit.png",
-        },
-        {
-          id: 4,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGuEQ.md.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGuEQ.jpeg",
-        },
-        {
-          id: 5,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGd2C.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGd2C.jpeg",
-        },
-        {
-          id: 6,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGlB4.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGlB4.jpeg",
-        },
-        {
-          id: 7,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGKFA.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGKFA.jpeg",
-        },
-        {
-          id: 8,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGp9N.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGp9N.jpeg",
-        },
-        {
-          id: 9,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGIIH.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGIIH.jpeg",
-        },
-        {
-          id: 10,
-          thumbnail: "https://i.imgs.ovh/2026/01/07/yOGGaU.jpeg",
-          fullSize: "https://i.imgs.ovh/2026/01/07/yOGGaU.jpeg",
-        },
+      {
+    id: 1,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883422533_长拳.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883422533_长拳.jpg",
+  },
+  {
+    id: 2,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883327001_模仿1.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883327001_模仿1.jpg",
+  },
+  {
+    id: 3,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883321255_房间照片临摹.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883321255_房间照片临摹.jpg",
+  },
+  {
+    id: 4,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883321421_武当.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883321421_武当.jpg",
+  },
+  {
+    id: 5,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883317074_太极.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883317074_太极.jpg",
+  },
+  {
+    id: 6,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883319349_南枝.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883319349_南枝.jpg",
+  },
+  {
+    id: 7,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883312555_南拳.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883312555_南拳.jpg",
+  },
+  {
+    id: 8,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883315491_模仿3.jpg",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883315491_模仿3.jpg",
+  },
+  {
+    id: 9,
+    thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883316318_乱涂的.png",
+    fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/绘画/1789883316318_乱涂的.png",
+  },
       ],
     };
   },
