@@ -51,7 +51,7 @@ export default {
           id: 4,
           bvid: "BV1Ns411i7EA",
           title: "【甲铁城/AMV/燃向】整理行装，继续旅程",
-          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/视频封面/1789883257232_甲铁城.jpg",
+          thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/视频封面/GQqggveF.jpg",
         },
         {
           id: 5,
