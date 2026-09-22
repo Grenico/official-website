@@ -17,7 +17,6 @@ export default {
       windowWidth: window.innerWidth,
       title: "图片数据",
       imgs: [
-        [
   {
     id: 1,
     thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/ghilY6az.jpg",
@@ -1223,7 +1222,6 @@ export default {
     thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg",
     fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg"
   }
-]
     ],
     };
   },
