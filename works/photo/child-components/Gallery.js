@@ -258,7 +258,67 @@ export default {
   { id: 239, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/2Fcul5wl.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/2Fcul5wl.jpg" },
   { id: 240, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/MW3lrDAk.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/MW3lrDAk.jpg" },
   { id: 241, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg" }
-    ],
+   {
+  id: 242,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506271640_IMG_20260927_164842.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506271640_IMG_20260927_164842.jpg",
+},
+{
+  id: 243,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266318_IMG_20260927_164724.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266318_IMG_20260927_164724.jpg",
+},
+{
+  id: 244,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506264193_IMG_20260927_164332_edit_2949858743875377.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506264193_IMG_20260927_164332_edit_2949858743875377.jpg",
+},
+{
+  id: 245,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266070_IMG_20260927_164131.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266070_IMG_20260927_164131.jpg",
+},
+{
+  id: 246,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266029_IMG_20260927_164037.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266029_IMG_20260927_164037.jpg",
+},
+{
+  id: 247,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506269594_IMG_20260927_163642.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506269594_IMG_20260927_163642.jpg",
+},
+{
+  id: 248,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506268505_IMG_20260927_162658_1.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506268505_IMG_20260927_162658_1.jpg",
+},
+{
+  id: 249,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506260159_IMG_20260927_162610.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506260159_IMG_20260927_162610.jpg",
+},
+{
+  id: 250,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506267699_IMG_20260419_181425.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506267699_IMG_20260419_181425.jpg",
+},
+{
+  id: 251,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265029_IMG_20260917_180411.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265029_IMG_20260917_180411.jpg",
+},
+{
+  id: 252,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266901_IMG_20260113_144736.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506266901_IMG_20260113_144736.jpg",
+},
+{
+  id: 253,
+  thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265464_IMG_20260113_143626.jpg",
+  fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265464_IMG_20260113_143626.jpg",
+},
+      ],
     };
   },
   computed: {
