@@ -257,8 +257,8 @@ export default {
   { id: 238, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/5mzcHy5t.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/5mzcHy5t.jpg" },
   { id: 239, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/2Fcul5wl.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/2Fcul5wl.jpg" },
   { id: 240, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/MW3lrDAk.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/MW3lrDAk.jpg" },
-  { id: 241, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg" }
-   {
+  { id: 241, thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg", fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/摄影缩略图/PtagRWfC.jpg" },
+  {
   id: 242,
   thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506271640_IMG_20260927_164842.jpg",
   fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506271640_IMG_20260927_164842.jpg",
@@ -317,7 +317,7 @@ export default {
   id: 253,
   thumbnail: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265464_IMG_20260113_143626.jpg",
   fullSize: "https://cloudflare-imgbed-cg4.pages.dev/file/缩略图/1790506265464_IMG_20260113_143626.jpg",
-},
+}
       ],
     };
   },
